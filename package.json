@@ -1,0 +1,30 @@
+{
+  "name": "chatbiz-blog",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://gitlab.com/terryds/chatbiz-blog.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://gitlab.com/terryds/chatbiz-blog/issues"
+  },
+  "homepage": "https://gitlab.com/terryds/chatbiz-blog#readme",
+  "dependencies": {
+    "bootstrap": "^4.3.1",
+    "bootstrap-vue": "^2.0.0-rc.24",
+    "jquery": "^3.4.1",
+    "owl.carousel": "^2.3.4",
+    "tailwindcss": "^1.0.4",
+    "vue": "^2.6.10",
+    "vue-jquery": "^1.0.6"
+  }
+}
