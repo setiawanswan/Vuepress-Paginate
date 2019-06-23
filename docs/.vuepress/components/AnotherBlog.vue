@@ -7,14 +7,14 @@
       <div class="row">
         <div class="col-md box-in-content" v-for="(card, index) in content" :key="index">
           <div class="shadow p-3 mb-5 bg-white rounded">
-          <div class="box-in-content">
-            <a href="http://localhost:8080/guide.html">
-              <img v-bind:src="card.img" alt>
-            </a>
-            <p class="title-in-content">{{card.text}}</p>
-            <p class="text-in-content">{{card.content}}</p>
-            <a class="let-see" href="http://localhost:8080/guide.html">{{card.see}}</a>
-          </div>
+            <div class="box-in-content">
+              <a href="http://localhost:8080/guide.html">
+                <img v-bind:src="card.img" alt>
+              </a>
+              <p class="title-in-content">{{card.text}}</p>
+              <p class="text-in-content">{{card.content}}</p>
+              <a class="let-see" href="http://localhost:8080/guide.html">{{card.see}}</a>
+            </div>
           </div>
         </div>
       </div>
@@ -66,7 +66,6 @@ export default {
   border-right: 2px solid lightgray;
 }
 
-
 .title-in-content {
   font-size: 15px;
   text-align: left;
@@ -82,10 +81,10 @@ export default {
   width: 100% !important;
 }
 
-.another-blog-title{
+.another-blog-title {
   padding: 10px 120px;
   font-size: 30px;
-  font-weight: 100
+  font-weight: 100;
 }
 </style>
 

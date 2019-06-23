@@ -2,5 +2,3 @@
 <Header />
 <Counter />
 <Footer />
-
-<!-- <Pagination /> -->
