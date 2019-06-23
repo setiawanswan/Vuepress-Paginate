@@ -8,12 +8,6 @@
         <li class="menu-in-navbar">
           <a class="active" href="http://localhost:8080/">Home</a>
         </li>
-        <li class="menu-in-navbar">
-          <a href="#news">News</a>
-        </li>
-        <li class="menu-in-navbar">
-          <a href="http://localhost:8080/galery.html">Galery</a>
-        </li>
       </ul>
     </div>
   </div>

@@ -30,8 +30,6 @@ module.exports = {
           },
           nav: [
             { text: 'Post Your Blog', link: '/guide' },
-            { text: 'Galery', link: '/galery/' },
-            { text: 'News', link: '/news/'}
             // external link to git repo...again
           ],
         }

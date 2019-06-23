@@ -228,6 +228,34 @@ export default {
           img: "https://via.placeholder.com/220",
           content:
             "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+        },
+        {
+          see: "See more >>",
+          text: "Chatbiz Easy To Use",
+          img: "https://via.placeholder.com/220",
+          content:
+            "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+        },
+        {
+          see: "See more >>",
+          text: "Chatbiz Easy To Use",
+          img: "https://via.placeholder.com/220",
+          content:
+            "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+        },
+        {
+          see: "See more >>",
+          text: "Chatbiz Easy To Use",
+          img: "https://via.placeholder.com/220",
+          content:
+            "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+        },
+        {
+          see: "See more >>",
+          text: "Chatbiz Easy To Use",
+          img: "https://via.placeholder.com/220",
+          content:
+            "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
         }
       ],
       contentOne: [

@@ -1,5 +1,5 @@
 <template>
-    <div>
+    <div class="window">
         <h1>New Theme</h1>
         <Content>
     </div>
@@ -11,6 +11,6 @@ export default {
 }
 </script>
 
-<style>
-
+<style lang="stylus">
+@import '../styles/index.styl';
 </style>
