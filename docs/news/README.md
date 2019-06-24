@@ -17,5 +17,5 @@
 
 <AnotherBlog />
 <Footer />
-<!-- <Image /> -->
+
 
