@@ -3,26 +3,6 @@
     <div class="title">
       <p>Top Post</p>
     </div>
-    <!-- <div class="container blog-one">
-      <div class="row">
-        <div class="col-md">
-          <div id="demos">
-            <div class="owl-carousel owl-theme">
-              <div class="item" v-for="(card, index) in content" :key="index">
-                <a href="http://localhost:8080/guide.html">
-                  <img v-bind:src="card.img" alt>
-                </a>
-                <p class="title-in-content">{{card.text}}</p>
-                <p class="text-in-content">{{card.content}}</p>
-                <p class="let-see">
-                  <a href="http://localhost:8080/guide.html">{{card.see}}</a>
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>-->
     <div class="blog-one-color">
       <div class="container blog-one">
         <div class="row">
@@ -39,7 +19,7 @@
         </div>
       </div>
     </div>
-    <div class="container blog-two">
+    <!-- <div class="container blog-two">
       <div class="row">
         <div class="col-md-10 mb-3" v-for="(card, index) in contentOne" :key="index">
           <div class="card">
@@ -62,20 +42,7 @@
           </div>
         </div>
       </div>
-    </div>
-    <div id="demos">
-      <div class="owl-carousel owl-theme">
-        <div class="item" v-for="(otherblog, index) in pagination" :key="index">
-          <div>
-            <a href="http://localhost:8080/news/">
-              <p class="other-blog">{{otherblog.text}}</p>
-            </a>
-            <p class="title-other-blog">{{otherblog.title}}</p>
-            <p class="content-other-blog">{{otherblog.content}}</p>
-          </div>
-        </div>
-      </div>
-    </div>
+    </div> -->
   </div>
 </template>
 
@@ -373,24 +340,5 @@ export default {
       ]
     };
   },
-  mounted() {
-    $(".owl-carousel").owlCarousel({
-      stagePadding: 50,
-      loop: true,
-      margin: 10,
-      nav: true,
-      responsive: {
-        0: {
-          items: 1
-        },
-        600: {
-          items: 3
-        },
-        1000: {
-          items: 3
-        }
-      }
-    });
-  }
 };
 </script>
