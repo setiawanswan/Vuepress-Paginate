@@ -29,7 +29,7 @@ module.exports = {
             }
           },
           nav: [
-            { text: 'Post Your Blog', link: '/guide' },
+            { text: 'Post Your Blog', link: '/news/README.md' },
             // external link to git repo...again
           ],
         }

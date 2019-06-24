@@ -28,12 +28,12 @@
         <div class="row">
           <div class="col-md-3 space-top" v-for="(card, index) in content" :key="index">
             <div class="shadow p-3 mb-5 bg-white rounded">
-              <a href="http://localhost:8080/guide.html">
+              <a href="http://localhost:8080/news/">
                 <img v-bind:src="card.img" alt>
               </a>
               <p class="title-in-content">{{card.text}}</p>
               <p class="text-in-content">{{card.content}}</p>
-              <a class="let-see" href="http://localhost:8080/guide.html">{{card.see}}</a>
+              <a class="let-see" href="http://localhost:8080/news/">{{card.see}}</a>
             </div>
           </div>
         </div>
@@ -44,7 +44,7 @@
         <div class="col-md-10 mb-3" v-for="(card, index) in contentOne" :key="index">
           <div class="card">
             <div class="flex-container">
-              <a href="http://localhost:8080/guide.html">
+              <a href="http://localhost:8080/news/">
                 <img v-bind:src="card.img" alt>
               </a>
               <p>
@@ -55,7 +55,7 @@
                   <p class="text-in-content-bottom">{{card.content}}</p>
                 </span>
                 <span>
-                  <a class="let-see-bottom" href="http://localhost:8080/guide.html">{{card.see}}</a>
+                  <a class="let-see-bottom" href="http://localhost:8080/news/">{{card.see}}</a>
                 </span>
               </p>
             </div>
@@ -67,7 +67,7 @@
       <div class="owl-carousel owl-theme">
         <div class="item" v-for="(otherblog, index) in pagination" :key="index">
           <div>
-            <a href="http://localhost:8080/guide.html">
+            <a href="http://localhost:8080/news/">
               <p class="other-blog">{{otherblog.text}}</p>
             </a>
             <p class="title-other-blog">{{otherblog.title}}</p>

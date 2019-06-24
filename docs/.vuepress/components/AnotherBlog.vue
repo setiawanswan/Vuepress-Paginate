@@ -8,12 +8,12 @@
         <div class="col-md box-in-content" v-for="(card, index) in content" :key="index">
           <div class="shadow p-3 mb-5 bg-white rounded">
             <div class="box-in-content">
-              <a href="http://localhost:8080/guide.html">
+              <a href="http://localhost:8080/news/">
                 <img v-bind:src="card.img" alt>
               </a>
               <p class="title-in-content">{{card.text}}</p>
               <p class="text-in-content">{{card.content}}</p>
-              <a class="let-see" href="http://localhost:8080/guide.html">{{card.see}}</a>
+              <a class="let-see" href="http://localhost:8080/news/">{{card.see}}</a>
             </div>
           </div>
         </div>
