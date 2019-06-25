@@ -1,14 +1,12 @@
 <template>
-  <div>
-    <div class="navbar">
-      <ul>
-        <li class="menu-in-navbar">
-          <a class="active" href="http://localhost:8080/"> -Chatbiz Logo-</a>
-        </li>
-        <li class="menu-in-navbar">
-          <a class="active" href="http://localhost:8080/">Home</a>
-        </li>
-      </ul>
+  <div class="navbar">
+    <div class="flex-container">
+      <div>
+        <p>
+          <span class="arrow-to-homepage"> < </span>
+          <span class="back-to-homepage">Ke halaman utama</span>
+        </p>
+      </div>
     </div>
   </div>
 </template>
@@ -18,57 +16,24 @@ export default {};
 </script>
 
 <style>
-ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background-color: white;
-  width: 100%
-}
-
-li {
-  float: left;
-}
-
-li a {
-  display: block;
-  color: white;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  
-}
-
-li a:hover {
+.flex-container {
+  display: flex;
   background-color: white;
 }
-.navbar {
-  overflow: hidden;
-  background-color: white;
-  border-bottom: 2px solid lightgray;
+
+.navbar{
+  padding: 50px 100px;
+  /* border-bottom: 1px solid lightgray */
 }
 
-.navbar a {
-  float: left;
+.back-to-homepage{
   font-size: 16px;
-  font-weight: 600;
-  color: black;
-  text-align: center;
-  padding: 10px;
-  text-decoration: none;
+  font-family: Montserrat;
+  color: #959595
 }
-
-.home {
-  font-family: sans-serif;
-  font-weight: 600;
-}
-.navbar a:hover {
-  color: #7f00ff;
-  transition: 0.5s
-}
-
-.menu-in-navbar{
-  margin-right: 30px
+.arrow-to-homepage{
+  font-size: 16px;
+  font-family: Montserrat;
+  color: #6E6D6D
 }
 </style>

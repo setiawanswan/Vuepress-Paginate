@@ -1,6 +1,7 @@
 <Navbar />
+<posts />
+<!-- <Navbar />
 <Header />
 <Counter />
-<Scroll />
-<Footer />
-<Image />
+<InfiniteLoading />
+<Footer /> -->
