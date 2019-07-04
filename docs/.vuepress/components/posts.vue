@@ -66,6 +66,7 @@ export default {
         .then(response => {
           this.posts = response.data;
           this.configPagination(response.headers);
+          console.log(response)
         })
         .catch(error => {
           console.log(error);

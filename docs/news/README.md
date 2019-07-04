@@ -1,5 +1,6 @@
 <Navbar />
-<Blog />
+<Blog/>
+
 
 
 
